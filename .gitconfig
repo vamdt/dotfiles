@@ -1,0 +1,20 @@
+[color]
+	ui = true
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	pager = true
+[color "status"]
+	added = green
+	changed = red bold
+	untracked = magenta bold
+[color "branch"]
+	remote = maroon
+[user]
+	email = liang6688267@gmail.com
+	name = vamdt
+[credential]
+	helper = cache --timeout=3600
+[core]
+	pager = less -r
