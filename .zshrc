@@ -3,7 +3,11 @@ PATH=$PATH:$HOME/.rvm/bin
 
 # load colors
 autoload -U colors && colors
-autoload -U promptinit && promptinit
+#load completion
+autoload -U compinit 
+
+#
+zstyle ':completion:*:*:git:*' script ~/.zsh/.git-completion.sh
 
 #prompts
 SET_PROMPT () {
@@ -14,3 +18,5 @@ SET_PROMPT
 
 # aliases
 source $HOME/.aliases
+# bashmarks
+source $HOME/bin/bashmarks.sh
