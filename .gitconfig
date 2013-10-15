@@ -10,7 +10,7 @@
 	changed = red bold
 	untracked = magenta bold
 [color "branch"]
-   remote = maroon
+    remote = maroon
 [user]
 	email = liang6688267@gmail.com
 	name = vamdt
@@ -20,3 +20,5 @@
 	pager = less -r
 [push]
 	default = simple
+[branch]
+	autosetuprebase = always
