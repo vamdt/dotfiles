@@ -10,7 +10,7 @@
 	changed = red bold
 	untracked = magenta bold
 [color "branch"]
-	remote = maroon
+   remote = maroon
 [user]
 	email = liang6688267@gmail.com
 	name = vamdt
@@ -18,3 +18,5 @@
 	helper = cache --timeout=3600
 [core]
 	pager = less -r
+[push]
+	default = simple
