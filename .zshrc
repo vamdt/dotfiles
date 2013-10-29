@@ -1,5 +1,6 @@
 #exports other dirs to PATH
-PATH=$PATH:$HOME/.rvm/bin 
+PATH=$PATH:$HOME/.rvm/bin:/usr/local/share/npm/bin 
+
 
 # load colors
 autoload -U colors && colors
@@ -20,3 +21,6 @@ SET_PROMPT
 source $HOME/.aliases
 # bashmarks
 source $HOME/bin/bashmarks.sh
+
+# zsh aliase
+alias mysqlre='mysql -uroot -h 192.168.33.10'

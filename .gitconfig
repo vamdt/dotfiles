@@ -9,8 +9,6 @@
 	added = green
 	changed = red bold
 	untracked = magenta bold
-[color "branch"]
-    remote = maroon
 [user]
 	email = liang6688267@gmail.com
 	name = vamdt
