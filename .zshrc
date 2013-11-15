@@ -1,5 +1,6 @@
 #exports other dirs to PATH
-PATH=$PATH:$HOME/.rvm/bin:/usr/local/share/npm/bin 
+REDIS_PATH=/usr/local/Cellar/redis/2.6.15
+PATH=/usr/local/git/bin:/usr/local/sbin:$PATH:$HOME/.rvm/bin:/usr/local/share/npm/bin:REDIS_PATH/bin 
 
 
 # load colors
@@ -8,7 +9,8 @@ autoload -U colors && colors
 autoload -U compinit 
 
 #
-zstyle ':completion:*:*:git:*' script ~/.zsh/.git-completion.sh
+#zstyle ':completion:*:*:git:*' script ~/.zsh/.git-completion.sh
+fpath=(~/.zsh $fpath)
 
 #prompts
 SET_PROMPT () {
@@ -24,3 +26,4 @@ source $HOME/bin/bashmarks.sh
 
 # zsh aliase
 alias mysqlre='mysql -uroot -h 192.168.33.10'
+
