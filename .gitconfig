@@ -1,5 +1,5 @@
 [color]
-	ui = true
+	ui = auto
 	diff = auto
 	status = auto
 	branch = auto
@@ -16,7 +16,17 @@
 	helper = cache --timeout=3600
 [core]
 	pager = less -r
+	editor = vim
+	excludesfile = /Users/TD-006/.gitignore_global
+	autocrlf = input
+	safecrlf = true
 [push]
 	default = simple
 [branch]
 	autosetuprebase = always
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
