@@ -18,3 +18,4 @@ alias .....='cd ../../../..'
 alias ......='cd ../../../../..'
 alias -- -= 'cd -'
 alias julia=/Applications/Julia-0.2.0.app/Contents/Resources/julia/bin/julia
+alias v=vim
