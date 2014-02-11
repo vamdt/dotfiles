@@ -12,6 +12,8 @@ alias ga='git add'
 alias gb='git branch'
 alias gc='git commit'
 alias gd='git diff'
+alias gpl='git pull'
+alias gpu='git push'
 
 alias cls='clear'
 
@@ -24,3 +26,8 @@ alias -- -= 'cd -'
 
 alias julia=/Applications/Julia-0.2.0.app/Contents/Resources/julia/bin/julia
 alias v=vim
+alias less=/usr/share/vim/vim73/macros/less.sh
+
+alias jenkstart='sudo launchctl load /Library/LaunchDaemons/org.jenkins-ci.plist'
+alias jenkstop='sudo launchctl unload /Library/LaunchDaemons/org.jenkins-ci.plist'
+alias jenkreload='jenkstop && jenkstart'
