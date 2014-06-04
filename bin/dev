@@ -1,0 +1,14 @@
+
+tmux new-session -s dev -n hipandora -d
+
+tmux send-keys -t dev 'j vagrant' C-m
+
+tmux split-window -h -t dev -d
+
+#tmux select-layout -t dev main-horizontal
+tmux send-keys -t dev:1.2 'j pandora' C-m
+tmux new-window -n console -t dev
+tmux send-keys -t dev:2 'g from_githubs' C-m
+tmux select-window -t dev:1
+tmux attach -t dev
+
