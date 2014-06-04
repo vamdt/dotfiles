@@ -74,6 +74,9 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 # Disable the warning when changing a file extension
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
+# show hidden files
+defaults write com.apple.finder AppleShowAllFiles TRUE # 10.9
+
 # Disable disk image verification
 defaults write com.apple.frameworks.diskimages skip-verify -bool true
 defaults write com.apple.frameworks.diskimages skip-verify-locked -bool true
