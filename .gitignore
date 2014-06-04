@@ -4,3 +4,6 @@
 #emacs
 *~
 \#*#
+
+#mac
+.DS_Store
