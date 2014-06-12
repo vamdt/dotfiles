@@ -1,1 +1,3 @@
+#!/usr/bin/env bash
+
 curl -sL http://dict.cn/hello | grep -n2 dict-basic | tail -n1 | awk '/<(span|strong)>([\S\s]*?)<\/(span|strong)>/'
