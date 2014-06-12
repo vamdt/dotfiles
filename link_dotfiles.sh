@@ -3,6 +3,7 @@
 cd $(dirname $BASH_SOURCE)
 DOTFILE_PATH=$(pwd)
 LINK_FILES_PATH="$DOTFILE_PATH/link"
+BIN_DIR_PATH="$DOTFILE_PATH/bin"
 
 link() {
   from="$1"
@@ -16,3 +17,5 @@ for i in $(find $LINK_FILES_PATH -type f); do
   file_name=$(basename $i)
   link "$i" "$HOME/$file_name"
 done; 
+
+link "$BIN_DIR_PATH" "$HOME/bin"
