@@ -1,0 +1,1 @@
+*/5 * * * * rsync -a -C 192.168.0.151::harem /Users/angl/projects/moode/harem
