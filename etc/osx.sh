@@ -173,6 +173,11 @@ defaults write org.m0k.transmission WarningDonate -bool false
 # Hide the legal disclaimer
 defaults write org.m0k.transmission WarningLegal -bool false
 
+# kill dashboard
+defaults write com.apple.dashboard mcx-disabled -boolean YES
+# enable dashboard
+# defaults write com.apple.dashboard mcx-disabled -boolean NO
+
 # Memory management
 # =================
 # Disable swap file. OS X will crash if mem will exceed max mem.
