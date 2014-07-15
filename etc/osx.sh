@@ -185,3 +185,6 @@ defaults write com.apple.dashboard mcx-disabled -boolean YES
 
 # Enable swap back.
 # sudo launchctl load -wF /System/Library/LaunchDaemons/com.apple.dynamic_pager.plist
+
+#sublime vintage hold a key and repeat it
+defaults write -g ApplePressAndHoldEnabled -bool false
