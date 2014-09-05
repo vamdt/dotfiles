@@ -5,7 +5,7 @@ set cursorline
 set guifont=MonoSpace\ 11
 
 set nu "line number
-set ai "auto indent
+"set ai "auto indent
 
 set nobackup "no backup file
 set nowritebackup

@@ -18,6 +18,8 @@ alias gpu='git push'
 alias gpu='git push'
 alias gplh='git pull upstream develop'
 alias gpuh='git push upstream develop'
+alias gpld='git pull upstream dev'
+alias gpud='git push upstream dev'
 alias gr='git rebase' 
 
 alias cls='clear'
