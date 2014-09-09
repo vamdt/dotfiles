@@ -188,3 +188,9 @@ defaults write com.apple.dashboard mcx-disabled -boolean YES
 
 #sublime vintage hold a key and repeat it
 defaults write -g ApplePressAndHoldEnabled -bool false
+
+
+# set dock auto-hide delay to 0
+# defaults write com.apple.Dock autohide-delay -float 0 && killall Dock
+# restore dock auto-hide delay to default
+# defaults delete com.apple.Dock autohide-delay && killall Dock
