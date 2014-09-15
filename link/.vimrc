@@ -2,7 +2,7 @@ syntax on "syntax higliting
 set hlsearch "搜索高亮
 colorscheme desert
 set cursorline
-set guifont=MonoSpace\ 11
+set guifont=Source\ Code\ Pro\ 16
 
 set nu "line number
 "set ai "auto indent
