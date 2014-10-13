@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 xt () {
     if [ -f $1 ] ; then
         case $1 in
