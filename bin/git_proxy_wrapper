@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+HOST=127.0.0.1
+PORT=15083
+
+/usr/local/bin/connect -S "$HOST:$PORT" "$@"

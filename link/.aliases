@@ -33,7 +33,6 @@ alias ......='cd ../../../../..'
 alias -- -= 'cd -'
 
 alias v=vim
-alias less=/usr/share/vim/vim73/macros/less.sh
 
 #network
 alias sip="ifconfig | grep 192 | awk '{print \$2}'"
