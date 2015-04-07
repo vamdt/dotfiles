@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+[[ -n "$1" ]] || {
+  echo "Please input a file!"
+  exit 1
+}
+
+relpath=$(echo "$1" | sed 's/^.\///')
+filepath="$(pwd)/$relpath"
+
+[[ -e "$filepath" ]] || {
+  echo "File dosen't exist!"
+  exit 1
+}
+
+echo $filepath | tee >(pbcopy)
