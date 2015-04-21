@@ -33,6 +33,8 @@ alias ......='cd ../../../../..'
 alias -- -= 'cd -'
 
 alias v=vim
+alias rscp='rsync -ahP'
+alias rsmv='rsync -ahP --remove-source-files'
 
 #network
 alias sip="ifconfig | grep 192 | awk '{print \$2}'"
