@@ -18,7 +18,7 @@ alias gc='g commit'
 alias gs='g status'
 alias rs='rails s'
 alias ..='cd ..'
-alias man='man -P most'
+source "$HOME/.aliases"
 
 eval $(dircolors -b)
 
@@ -103,3 +103,6 @@ fi
 [ -n "$XTERM_VERSION" ] && transset-df -a .45 > /dev/null
 #source rvm
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# chruby
+source /usr/local/share/chruby/chruby.sh
+source /usr/local/share/chruby/auto.sh

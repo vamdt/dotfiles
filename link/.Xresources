@@ -5,6 +5,7 @@ Xft.hinting: 1
 Xft.hintstyle: hintslight
 Xft.antialias: 1
 Xft.rgba: rgba
+Xft.lcdfilter: lcddefault
 
 URxvt.font: xft:DejaVu Sans Mono:pixelsize=16:antialias=True,\
 xft:WenQuanYi Micro Hei Mono:size=20:antialias=True
