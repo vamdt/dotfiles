@@ -20,3 +20,11 @@ xt () {
         echo "'$1' is not a valid file"
     fi
 }
+
+kaifa () {
+    mount -o rw -t nfs kaifa.kehutong.com:/data/users/liang/projects ./projects
+}
+
+bukaifa () {
+    umount kaifa.kehutong.com:/data/users/liang/projects
+}
