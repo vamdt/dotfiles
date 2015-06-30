@@ -26,6 +26,9 @@ alias gr='git rebase'
 
 alias cls='clear'
 
+# emacs
+alias ec='emacsclient -nw'
+
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
