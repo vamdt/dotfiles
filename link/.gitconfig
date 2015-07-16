@@ -26,8 +26,8 @@
 [core]
 	pager = less -r
 	editor = vim
-	excludesfile = /Users/TD-006/.gitignore_global
-	autocrlf = input
+	excludesfile = ~/.gitignore
+	autocrlf = false
 	safecrlf = true
 [push]
 	default = simple
