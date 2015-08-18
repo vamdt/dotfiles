@@ -22,7 +22,7 @@ xt () {
 }
 
 kaifa () {
-    mount -o rw -t nfs kaifa.kehutong.com:/data/users/liang/projects ./projects
+   	rsync -avz --delete --rsh=ssh ~/projects/moode/moodecn/ liang@kaifa.kehutong.com:/data/users/liang/projects/moode
 }
 
 bukaifa () {
