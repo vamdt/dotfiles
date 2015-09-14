@@ -41,7 +41,7 @@ alias rscp='rsync -ahP'
 alias rsmv='rsync -ahP --remove-source-files'
 
 #network
-alias sip="ifconfig | grep 192 | awk '{print \$2}'"
+alias sip="/sbin/ifconfig | grep 192 | awk '{print \$2}'"
 
 #emacs
 alias ec='emacsclient -nw'

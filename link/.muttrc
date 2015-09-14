@@ -1,0 +1,4 @@
+set mbox=Maildir
+set folder=$HOME/.mail
+set spoolfile=$HOME/.mail/
+set header_cache=$HOME/.mail/.hcache
