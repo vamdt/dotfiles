@@ -41,7 +41,11 @@ alias rscp='rsync -ahP'
 alias rsmv='rsync -ahP --remove-source-files'
 
 #network
-alias sip="/sbin/ifconfig | grep 192 | awk '{print \$2}'"
+#alias sip="/sbin/ifconfig | grep 'inet addr' | awk '{print \$2}'"
+alias sip="ip -4 addr | grep -v valid_lft |awk '{print \$2}' | sed 'N;s/\n/ /' |  column -t"
 
 #emacs
-alias ec='emacsclient -nw'
+#alias ect='emacsclient -s /tmp/emacs1000/vamdt -t'
+alias ect='emacsclient -t'
+#alias ec='emacsclient -s /tmp/emacs1000/vamdt -c -n'
+alias ec='emacsclient -c -n'

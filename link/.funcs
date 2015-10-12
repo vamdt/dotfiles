@@ -25,6 +25,3 @@ kaifa () {
    	rsync -avz --rsh=ssh ~/projects/moode/moodecn/ liang@kaifa.kehutong.com:/data/users/liang/projects/moode
 }
 
-bukaifa () {
-    umount kaifa.kehutong.com:/data/users/liang/projects
-}
