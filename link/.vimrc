@@ -10,6 +10,7 @@ set smartcase  "id has Uppercase, then donot ignore case
 colorscheme desert
 
 set cursorline
+set cursorcolumn
 set showmatch "show matching bracketscketscketsckets
 set showcmd   "show cmd in status line
 set guifont=Source\ Code\ Pro\ 16
