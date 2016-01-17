@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-alias ls='ls -hFG'
+alias ls='ls --color=auto -hF'
 alias ll='ls -l' 
 alias la='ls -al'
 alias lt='ls -lt'

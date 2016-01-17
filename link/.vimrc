@@ -1,12 +1,23 @@
 syntax on "syntax higliting
-set hlsearch "搜索高亮
+
+" search
+set incsearch  "incremental search
+set hlsearch   "search hightlight
+set ignorecase "search ignore case
+set smartcase  "id has Uppercase, then donot ignore case
+
+
 colorscheme desert
+
 set cursorline
+set showmatch "show matching bracketscketscketsckets
+set showcmd   "show cmd in status line
 set guifont=Source\ Code\ Pro\ 16
 
 set nu "line number
 "set ai "auto indent
 
+set autowrite     "autowrite before :next and :make
 set nobackup "no backup file
 set nowritebackup
 
