@@ -20,8 +20,3 @@ xt () {
         echo "'$1' is not a valid file"
     fi
 }
-
-kaifa () {
-   	rsync -avz --rsh=ssh ~/projects/moode/moodecn/ liang@kaifa.kehutong.com:/data/users/liang/projects/moode
-}
-
