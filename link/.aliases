@@ -13,13 +13,6 @@ alias cls='clear'
 # emacs
 alias ec='emacsclient -nw'
 
-alias ..='cd ..'
-alias ...='cd ../..'
-alias ....='cd ../../..'
-alias .....='cd ../../../..'
-alias ......='cd ../../../../..'
-#alias -- -= 'cd -'
-
 alias v=vim
 alias rscp='rsync -ahP'
 alias rsmv='rsync -ahP --remove-source-files'
