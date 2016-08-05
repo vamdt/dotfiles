@@ -8,22 +8,6 @@ alias llt='ll -hst'
 alias l='ls -al'
 alias l.='ls -d .*'
 
-#alias g='git'
-alias gs='git status'
-alias ga='git add'
-alias gb='git branch'
-alias gc='git commit'
-alias gco='git checkout'
-alias gd='git diff --patience'
-alias gpl='git pull'
-alias gpu='git push'
-alias gpu='git push'
-alias gplh='git pull upstream develop'
-alias gpuh='git push upstream develop'
-alias gpld='git pull upstream dev'
-alias gpud='git push upstream dev'
-alias gr='git rebase' 
-
 alias cls='clear'
 
 # emacs
