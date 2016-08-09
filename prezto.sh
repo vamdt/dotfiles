@@ -4,7 +4,7 @@ set -xe
 # go to home dir
 cd "${ZDOTDIR:-$HOME}"
 # clone vamdt/prezto:v
-git clone --recursive https://github.com/vamdt/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
+git clone --recursive git@github.com:vamdt/prezto.git "${ZDOTDIR:-$HOME}/.zprezto"
 
 # Create a new Zsh configuration by copying the Zsh configuration files provided
 setopt EXTENDED_GLOB
