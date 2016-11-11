@@ -10,7 +10,7 @@ set smartcase  "id has Uppercase, then donot ignore case
 colorscheme desert
 
 set cursorline
-set cursorcolumn
+"set cursorcolumn
 set showmatch "show matching bracketscketscketsckets
 set showcmd   "show cmd in status line
 set guifont=Source\ Code\ Pro\ 16
@@ -31,3 +31,12 @@ set fileencodings=ucs-bom,utf-8,chinese
 nmap <C-S> :update<CR>
 vmap <C-S> <C-C>:update<CR>
 imap <C-S> <C-O>:update<CR>
+
+inoremap jk <ESC>`^
+vnoremap jk <ESC>
+onoremap jk <ESC>
+
+noremap <Space>y "*y
+noremap <Space>yy "*Y
+noremap <Space>p "*p
+noremap <Space>P "*P

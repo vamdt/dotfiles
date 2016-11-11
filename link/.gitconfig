@@ -28,7 +28,6 @@
 	editor = vim
 	excludesfile = ~/.gitignore
 	autocrlf = false
-	safecrlf = true
 [push]
 	default = simple
 [branch]
