@@ -40,3 +40,7 @@ noremap <Space>y "*y
 noremap <Space>yy "*Y
 noremap <Space>p "*p
 noremap <Space>P "*P
+
+call plug#begin('~/.vim/plugged')
+Plug 'kien/ctrlp.vim'
+call plug#end()
