@@ -1,0 +1,64 @@
+set hls
+set ignorecase smartcase
+set incsearch
+set showmode
+" minimum nr. of lines above and below cursor
+set so=5
+
+" enable vim-surround plugin
+set surround
+
+inoremap jk <ESC>`^
+vnoremap jk <ESC>
+onoremap jk <ESC>
+
+" BE => ^$
+nnoremap B ^
+nnoremap E $
+nnoremap ^ <nop>
+nnoremap $ <nop>
+
+" easy system clipboard copy/paster
+noremap <Space>y "*y
+noremap <Space>yy "*Y
+noremap <Space>p "*p
+noremap <Space>P "*P
+
+
+nnoremap / :action Find<CR>
+nnoremap n :action FindNext<CR>
+nnoremap N :action FindPrevious<CR>
+
+nnoremap <Space>d :action CloseContent<CR>
+nnoremap <Space>f :action FileStructurePopup<CR>
+nnoremap <Space>a :action GotoAction<CR>
+nnoremap <Space>h :action RecentFiles<CR>
+nnoremap <Space>j :action GotoClass<CR>
+nnoremap <Space>k :action GotoSymbol<CR>
+nnoremap <Space>l :action GotoFile<CR>
+nnoremap <Space>h :action RecentFiles<CR>
+nnoremap <Space>rr :action RenameElement<CR>
+nnoremap <Space>g  :action Generate<CR>
+nnoremap <Space>gs :action GenerateGetterAndSetter<CR>
+
+nnoremap mM :action ToggleBookmark0<CR>
+nnoremap mN :action ToggleBookmark1<CR>
+nnoremap mJ :action ToggleBookmark2<CR>
+nnoremap mK :action ToggleBookmark3<CR>
+nnoremap mH :action ToggleBookmark4<CR>
+nnoremap mL :action ToggleBookmark5<CR>
+nnoremap mY :action ToggleBookmark6<CR>
+nnoremap mI :action ToggleBookmark7<CR>
+nnoremap mA :action ToggleBookmark8<CR>
+nnoremap mB :action ToggleBookmark9<CR>
+
+nnoremap `M :action GotoBookmark0<CR>
+nnoremap `N :action GotoBookmark1<CR>
+nnoremap `J :action GotoBookmark2<CR>
+nnoremap `K :action GotoBookmark3<CR>
+nnoremap `H :action GotoBookmark4<CR>
+nnoremap `L :action GotoBookmark5<CR>
+nnoremap `Y :action GotoBookmark6<CR>
+nnoremap `I :action GotoBookmark7<CR>
+nnoremap `A :action GotoBookmark8<CR>
+nnoremap `B :action GotoBookmark9<CR>
